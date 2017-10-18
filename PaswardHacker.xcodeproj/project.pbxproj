@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DEB9911F97049700C3C51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEB9901F97049700C3C51B /* AppDelegate.swift */; };
+		04DEB9931F97049700C3C51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEB9921F97049700C3C51B /* ViewController.swift */; };
+		04DEB9961F97049700C3C51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEB9941F97049700C3C51B /* Main.storyboard */; };
+		04DEB9991F97049700C3C51B /* PaswardHacker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04DEB9971F97049700C3C51B /* PaswardHacker.xcdatamodeld */; };
+		04DEB99B1F97049700C3C51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DEB99A1F97049700C3C51B /* Assets.xcassets */; };
+		04DEB99E1F97049700C3C51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEB99C1F97049700C3C51B /* LaunchScreen.storyboard */; };
+		04DEB9A91F97049700C3C51B /* PaswardHackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEB9A81F97049700C3C51B /* PaswardHackerTests.swift */; };
+		04DEB9B41F97049700C3C51B /* PaswardHackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEB9B31F97049700C3C51B /* PaswardHackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DEB9A51F97049700C3C51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DEB9851F97049700C3C51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DEB98C1F97049700C3C51B;
+			remoteInfo = PaswardHacker;
+		};
+		04DEB9B01F97049700C3C51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DEB9851F97049700C3C51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DEB98C1F97049700C3C51B;
+			remoteInfo = PaswardHacker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DEB98D1F97049700C3C51B /* PaswardHacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaswardHacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEB9901F97049700C3C51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DEB9921F97049700C3C51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DEB9951F97049700C3C51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DEB9981F97049700C3C51B /* PaswardHacker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaswardHacker.xcdatamodel; sourceTree = "<group>"; };
+		04DEB99A1F97049700C3C51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DEB99D1F97049700C3C51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DEB99F1F97049700C3C51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEB9A41F97049700C3C51B /* PaswardHackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaswardHackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEB9A81F97049700C3C51B /* PaswardHackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaswardHackerTests.swift; sourceTree = "<group>"; };
+		04DEB9AA1F97049700C3C51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEB9AF1F97049700C3C51B /* PaswardHackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaswardHackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEB9B31F97049700C3C51B /* PaswardHackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaswardHackerUITests.swift; sourceTree = "<group>"; };
+		04DEB9B51F97049700C3C51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DEB98A1F97049700C3C51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEB9A11F97049700C3C51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEB9AC1F97049700C3C51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DEB9841F97049700C3C51B = {
+			isa = PBXGroup;
+			children = (
+				04DEB98F1F97049700C3C51B /* PaswardHacker */,
+				04DEB9A71F97049700C3C51B /* PaswardHackerTests */,
+				04DEB9B21F97049700C3C51B /* PaswardHackerUITests */,
+				04DEB98E1F97049700C3C51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DEB98E1F97049700C3C51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DEB98D1F97049700C3C51B /* PaswardHacker.app */,
+				04DEB9A41F97049700C3C51B /* PaswardHackerTests.xctest */,
+				04DEB9AF1F97049700C3C51B /* PaswardHackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DEB98F1F97049700C3C51B /* PaswardHacker */ = {
+			isa = PBXGroup;
+			children = (
+				04DEB9901F97049700C3C51B /* AppDelegate.swift */,
+				04DEB9921F97049700C3C51B /* ViewController.swift */,
+				04DEB9941F97049700C3C51B /* Main.storyboard */,
+				04DEB99A1F97049700C3C51B /* Assets.xcassets */,
+				04DEB99C1F97049700C3C51B /* LaunchScreen.storyboard */,
+				04DEB99F1F97049700C3C51B /* Info.plist */,
+				04DEB9971F97049700C3C51B /* PaswardHacker.xcdatamodeld */,
+			);
+			path = PaswardHacker;
+			sourceTree = "<group>";
+		};
+		04DEB9A71F97049700C3C51B /* PaswardHackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DEB9A81F97049700C3C51B /* PaswardHackerTests.swift */,
+				04DEB9AA1F97049700C3C51B /* Info.plist */,
+			);
+			path = PaswardHackerTests;
+			sourceTree = "<group>";
+		};
+		04DEB9B21F97049700C3C51B /* PaswardHackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04DEB9B31F97049700C3C51B /* PaswardHackerUITests.swift */,
+				04DEB9B51F97049700C3C51B /* Info.plist */,
+			);
+			path = PaswardHackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DEB98C1F97049700C3C51B /* PaswardHacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEB9B81F97049700C3C51B /* Build configuration list for PBXNativeTarget "PaswardHacker" */;
+			buildPhases = (
+				04DEB9891F97049700C3C51B /* Sources */,
+				04DEB98A1F97049700C3C51B /* Frameworks */,
+				04DEB98B1F97049700C3C51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaswardHacker;
+			productName = PaswardHacker;
+			productReference = 04DEB98D1F97049700C3C51B /* PaswardHacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DEB9A31F97049700C3C51B /* PaswardHackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEB9BB1F97049700C3C51B /* Build configuration list for PBXNativeTarget "PaswardHackerTests" */;
+			buildPhases = (
+				04DEB9A01F97049700C3C51B /* Sources */,
+				04DEB9A11F97049700C3C51B /* Frameworks */,
+				04DEB9A21F97049700C3C51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DEB9A61F97049700C3C51B /* PBXTargetDependency */,
+			);
+			name = PaswardHackerTests;
+			productName = PaswardHackerTests;
+			productReference = 04DEB9A41F97049700C3C51B /* PaswardHackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DEB9AE1F97049700C3C51B /* PaswardHackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEB9BE1F97049700C3C51B /* Build configuration list for PBXNativeTarget "PaswardHackerUITests" */;
+			buildPhases = (
+				04DEB9AB1F97049700C3C51B /* Sources */,
+				04DEB9AC1F97049700C3C51B /* Frameworks */,
+				04DEB9AD1F97049700C3C51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DEB9B11F97049700C3C51B /* PBXTargetDependency */,
+			);
+			name = PaswardHackerUITests;
+			productName = PaswardHackerUITests;
+			productReference = 04DEB9AF1F97049700C3C51B /* PaswardHackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DEB9851F97049700C3C51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "上田　護";
+				TargetAttributes = {
+					04DEB98C1F97049700C3C51B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					04DEB9A31F97049700C3C51B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04DEB98C1F97049700C3C51B;
+					};
+					04DEB9AE1F97049700C3C51B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04DEB98C1F97049700C3C51B;
+					};
+				};
+			};
+			buildConfigurationList = 04DEB9881F97049700C3C51B /* Build configuration list for PBXProject "PaswardHacker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DEB9841F97049700C3C51B;
+			productRefGroup = 04DEB98E1F97049700C3C51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DEB98C1F97049700C3C51B /* PaswardHacker */,
+				04DEB9A31F97049700C3C51B /* PaswardHackerTests */,
+				04DEB9AE1F97049700C3C51B /* PaswardHackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DEB98B1F97049700C3C51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEB99E1F97049700C3C51B /* LaunchScreen.storyboard in Resources */,
+				04DEB99B1F97049700C3C51B /* Assets.xcassets in Resources */,
+				04DEB9961F97049700C3C51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEB9A21F97049700C3C51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEB9AD1F97049700C3C51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DEB9891F97049700C3C51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEB9931F97049700C3C51B /* ViewController.swift in Sources */,
+				04DEB9991F97049700C3C51B /* PaswardHacker.xcdatamodeld in Sources */,
+				04DEB9911F97049700C3C51B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEB9A01F97049700C3C51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEB9A91F97049700C3C51B /* PaswardHackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEB9AB1F97049700C3C51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEB9B41F97049700C3C51B /* PaswardHackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DEB9A61F97049700C3C51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DEB98C1F97049700C3C51B /* PaswardHacker */;
+			targetProxy = 04DEB9A51F97049700C3C51B /* PBXContainerItemProxy */;
+		};
+		04DEB9B11F97049700C3C51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DEB98C1F97049700C3C51B /* PaswardHacker */;
+			targetProxy = 04DEB9B01F97049700C3C51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DEB9941F97049700C3C51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEB9951F97049700C3C51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DEB99C1F97049700C3C51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEB99D1F97049700C3C51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DEB9B61F97049700C3C51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DEB9B71F97049700C3C51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DEB9B91F97049700C3C51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWL9BWXDB;
+				INFOPLIST_FILE = PaswardHacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.default.PaswardHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DEB9BA1F97049700C3C51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWL9BWXDB;
+				INFOPLIST_FILE = PaswardHacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.default.PaswardHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DEB9BC1F97049700C3C51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWL9BWXDB;
+				INFOPLIST_FILE = PaswardHackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.default.PaswardHackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaswardHacker.app/PaswardHacker";
+			};
+			name = Debug;
+		};
+		04DEB9BD1F97049700C3C51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWL9BWXDB;
+				INFOPLIST_FILE = PaswardHackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.default.PaswardHackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaswardHacker.app/PaswardHacker";
+			};
+			name = Release;
+		};
+		04DEB9BF1F97049700C3C51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWL9BWXDB;
+				INFOPLIST_FILE = PaswardHackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.default.PaswardHackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaswardHacker;
+			};
+			name = Debug;
+		};
+		04DEB9C01F97049700C3C51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWL9BWXDB;
+				INFOPLIST_FILE = PaswardHackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.default.PaswardHackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaswardHacker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DEB9881F97049700C3C51B /* Build configuration list for PBXProject "PaswardHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEB9B61F97049700C3C51B /* Debug */,
+				04DEB9B71F97049700C3C51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEB9B81F97049700C3C51B /* Build configuration list for PBXNativeTarget "PaswardHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEB9B91F97049700C3C51B /* Debug */,
+				04DEB9BA1F97049700C3C51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEB9BB1F97049700C3C51B /* Build configuration list for PBXNativeTarget "PaswardHackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEB9BC1F97049700C3C51B /* Debug */,
+				04DEB9BD1F97049700C3C51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEB9BE1F97049700C3C51B /* Build configuration list for PBXNativeTarget "PaswardHackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEB9BF1F97049700C3C51B /* Debug */,
+				04DEB9C01F97049700C3C51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04DEB9971F97049700C3C51B /* PaswardHacker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04DEB9981F97049700C3C51B /* PaswardHacker.xcdatamodel */,
+			);
+			currentVersion = 04DEB9981F97049700C3C51B /* PaswardHacker.xcdatamodel */;
+			path = PaswardHacker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04DEB9851F97049700C3C51B /* Project object */;
+}
